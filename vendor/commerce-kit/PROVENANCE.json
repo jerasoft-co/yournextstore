@@ -1,0 +1,17 @@
+{
+  "upstreamVersion": "0.0.37",
+  "upstreamTarball": "https://registry.npmjs.org/commerce-kit/-/commerce-kit-0.0.37.tgz",
+  "upstreamIntegrity": "sha512-/oQrfll8clG+eZCeV3JsoZ+BYPedq5XGQVT3mycDMehlxnYuIl0BSqRY/QBwSNdF6YxZEgfAXX5BhTCwh42BIQ==",
+  "license": "AGPL-3.0-only",
+  "changes": "Only package.json version and tested framework peer/dev versions change. Distributed JavaScript, type declarations and license remain byte-identical to npm commerce-kit 0.0.37.",
+  "distributedFileSha256": {
+    "dist/currencies.d.ts": "54bc249d3408363193585e2dede230621c6f4eb3e07f7e27156e194582d606f9",
+    "dist/currencies.js": "5d436225d0c604e89bcd9f98995d12d1a82a24b9566679500b25a8f448b3ce7b",
+    "dist/index.d.ts": "4d045aca7a95335f545cba736335fd09ec6016a5d0a4c6c91a95bfd54da89419",
+    "dist/index.js": "1d85511f258eff6c9d7e144419a602badaae5d80130e1a78349852e5ebfa5a52",
+    "dist/internal.d.ts": "f99fe47e921390764e48004dfa055a29c278021ff84edfb3d5fa4ba66fcf47c6",
+    "dist/internal.js": "d3baeb602099ffbdd1a3e74180851db01b00d244fd2ab80e551c7264a44e8526",
+    "dist/yns.d.ts": "c00ac3602019f40a8f39b82d231fb0597b67c0cc4a9abb97a4c0181b1d3e7b53",
+    "dist/yns.js": "e0734bb5d932fb72fba232f02d2aebeab8d418af5bac3cab3506b41ef5713c26"
+  }
+}

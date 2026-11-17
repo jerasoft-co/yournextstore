@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "commerce-kit",
+  "version": "0.0.37-jerasoft.1",
+  "type": "module",
+  "license": "AGPL-3.0-only",
+  "keywords": [
+    "commerce",
+    "ecommerce",
+    "shop",
+    "shopping",
+    "next.js",
+    "react",
+    "stripe"
+  ],
+  "author": {
+    "name": "Your Next Store",
+    "email": "hi@yournextstore.com",
+    "url": "https://yournextstore.com"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./currencies": {
+      "import": "./dist/currencies.js",
+      "types": "./dist/currencies.d.ts"
+    },
+    "./internal": {
+      "import": "./dist/internal.js",
+      "types": "./dist/internal.d.ts"
+    },
+    "./yns": {
+      "import": "./dist/yns.js",
+      "types": "./dist/yns.d.ts"
+    },
+    "./db": {
+      "import": "./dist/db.js",
+      "types": "./dist/db.d.ts"
+    }
+  },
+  "files": [
+    "package.json",
+    "dist",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "@neondatabase/serverless": "^0.10.4",
+    "@types/node": "^22.10.1",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "next": "15.5.29",
+    "prettier": "3.4.1",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "rimraf": "6.0.1",
+    "server-only": "0.0.1",
+    "stripe": "^17.4.0",
+    "tsup": "8.3.5",
+    "tsx": "^4.19.2",
+    "vitest": "^2.1.6",
+    "zod": "^3.23.8"
+  },
+  "peerDependencies": {
+    "@neondatabase/serverless": "^0.9.4",
+    "@types/node": "^20 || ^22",
+    "@types/react": "19.2.0",
+    "@types/react-dom": "19.2.0",
+    "next": "15.5.29",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "server-only": "0.0.1",
+    "stripe": "^16.5.0 || ^17.0.0",
+    "typescript": "^5.5.4",
+    "zod": "^3.23.8"
+  },
+  "scripts": {
+    "build": "rimraf dist/* && tsup --config tsup.config.ts",
+    "dev": "tsup --config tsup.config.ts --watch"
+  }
+}
